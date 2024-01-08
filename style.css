@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}

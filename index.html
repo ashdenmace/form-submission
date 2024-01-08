@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Email Submission Form</title>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<body>
+    <main>
+        <header>
+            <h1>HTML Email Submission Form</h1>
+        </header>
+        <div>
+            <form>
+                <label for="name">Name:</label>
+                <input
+                    id="name"
+                    type="text"
+                    name="name"
+                    required
+                />
+                
+                <label for="email">Email Address:</label>
+                <input
+                    id="email"
+                    type="text"
+                    name="email"
+                    required
+                />
+
+                <label for="message">Your Message:</label>
+                <textarea
+                    id="message"
+                    maxlength="300"
+                    name="message"
+                    required
+                ></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
